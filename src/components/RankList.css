@@ -1,0 +1,63 @@
+.rank-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    border-bottom: 1px solid #f1f1f1;
+    gap: 15px;
+    background-color: #fffdf5;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  
+  .rank-item:hover {
+    background: #8d99aa;
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  
+  .rank-item .rank-num {
+    font-weight: bold;
+    width: 30px;
+    font-size: 16px;
+  }
+  
+  .rank-item .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #f6b93b;
+  }
+  
+  .rank-item .name {
+    flex: 1;
+    font-weight: 500;
+  }
+  
+  .rank-item .points {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .pagination button {
+    background: #f39c12;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
